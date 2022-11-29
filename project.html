@@ -1,0 +1,76 @@
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+           <div class="project-content">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <div class="project-content-heading">
+                              [ A Weather Project ]
+                            </div>
+                        </li>
+                        <li>
+                            <div id="link">
+                                <img class="cursor-scale small" id="applink" src="./images/link.svg" alt="">
+                                <div id="tag">Unmaintained</div>
+                                <a class="cursor-scale small" id="applinktext" target="_blank" href="https://soyouwannaknowtheweatherhuh.vercel.app/">soyouwannaknowtheweatherhuh.vercel.app</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-content-body">
+                                'So You Wanna Know The Weather' is a project I began building on Christmas of 2020. It was finished it by New Year of 2021. This project was built on the stack of Python & Django. I deployed it to Heroku at first but later migrated to Vercel after an year. It gave me a new understanding of idea's & concept's behind API (Application Programming Interface) and taught me how to fetch data from varioius API's simultaneously as well as presenting them in a beautiful way. The Project was built in a timespan of a week.
+                            </div>
+                        </li>
+                        <li>    
+                            <div class="project-content-body parachange">
+                                When a user opens any website. He sents a "Request" to the Webserver. The Webserver passes the request to the Backend-Framework. In our case, the Django-Framewrok. Django then transfers the Request to our "Views" and this is where all the backend magic happens. The Views in Django are programmed to determine the Internet Protocol or I.P. Address of client from the "X-Forwarded-For" Header in the "GET" Request which includes the originiating IP Address. The IP is then passed to IpInfo API which fetches and retuns a approximate location of the user. The Location is then transferred to Tommrow's Weather API which fetches the weather for that location and returns and displays it to the user.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+          <div class="container2">
+            <div class="tech-layer-top">
+                <a target="_blank" href="https://www.python.org/">
+                    <div class="tech-container tech1 cursor-scale">
+                        <img src="./images/python.svg" alt="">
+                        <h4 class="tech-name">Python</h4>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.djangoproject.com">
+                    <div class="tech-container tech2 cursor-scale">
+                        <img src="./images/django.svg" alt="">
+                        <h4 class="tech-name">Django</h4>
+                    </div>
+                </a>
+            </div>
+           <div class="project-container-tech">
+                <div class="container">
+                    <div class="project-content-tech-heading">
+                        Technologies
+                    </div>
+                </div>
+            </div>
+            <div class="tech-layer-bottom">
+                <a target="_blank" href="https://www.tomorrow.io/"> 
+                    <div class="tech-container tech1 cursor-scale">
+                        <img src="./images/api.svg" alt="">
+                        <h4 class="tech-name">Data API</h4>
+                    </div>
+                </a>
+                <a target="_blank" href="https://ipinfo.io/">
+                    <div class="tech-container tech2 cursor-scale">
+                        <img src="./images/api.svg" alt="">
+                        <h4 class="tech-name">IP API</h4>
+                    </div>
+                </a>
+           </div>
+          </div>
+        </div>
+       
+    </div>
+
+    <div class="swiper-pagination cursor-scale small"></div>
+</div>
