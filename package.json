@@ -1,0 +1,10 @@
+{
+  "name": "dimensional-rift",
+  "version": "0.0.1",
+  "description": "This is a portfolio project to better understand threejs and glsl.",
+  "main": "index.html",
+  "repository": "https://github.com/is-it-ayush/dimensional_rift.git",
+  "author": "Ayush Gupta <ayush.keshav2004@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
